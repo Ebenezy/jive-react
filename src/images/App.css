@@ -1,0 +1,218 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700');
+@import 'css/bootstrap.min.css';
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css"; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background-color: #f2ecf2
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+button:active, button:focus{
+    border: none;
+    
+}
+.signup-page{
+    overflow-y: hidden;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    background-position: bottom center;
+    background-size: cover;
+    
+}
+.signup-bg{
+background: url(../jive-login1.jpg);
+background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+ height: 100vh;
+    
+    
+}
+.signup-bg::before{
+    content: "";
+  display: block;
+  position: absolute;
+    z-index: -1;
+    width: 100%;
+  height: 100%;
+    background: -webkit-linear-gradient( #FFAF34, #FF1B5E);
+  background: -o-linear-gradient(  #FFAF34, #FF1B5E);
+  background: -moz-linear-gradient(  #FFAF34, #FF1B5E);
+  background: linear-gradient(to bottom,  #FFAF34, #FF1B5E);
+  opacity: 0.8;
+}
+.signup-form {
+    background-color: #fff;
+    height: 100vh;
+    padding: 100px;
+}
+.signup-left{
+    text-align: center;
+    padding: 30% 100px;
+    vertical-align: center;
+    align-items: center;
+}
+.signup-img-left{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.signup-info-left{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+.create{
+    text-align: center;
+    
+}
+.create h2{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.up{
+    text-align: center;
+    font-size: 25px;
+    color: #FF4A50;
+    
+}
+.active{
+    color: #FF4A50;
+}
+.account{
+    margin-top: 10%;
+}
+.logg{
+    padding-top: 1%;
+    font-size: 14px;
+    
+}
+.loggg{
+    color: #FF4A50;
+    font-size: 18px;    
+    padding-top: 0;
+}
+.loggg:hover {
+    text-decoration: none;
+    color: #FF4A50;
+}
+.btn.submit-btn {
+    background: #ef483e;
+    height: 48px;
+    min-width: 185px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+
+.btn.submit-btn:hover {
+    background: #ef483e;
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border-radius: 30px;
+    
+}
+
+.btn.submit-btn1 {
+    background: #ef483e;
+    height: 60px;
+    min-width: 100%;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+.up a{
+    text-decoration: none;
+    color: inherit;
+}
+.logg a{
+    text-decoration: none;
+    color: inherit;
+}
+.jive-right{
+    padding-bottom: 10px;
+}
+
+#name {
+    font-size: 18px;
+    padding: 15px 15px;
+    border-radius: 25px 25px 25px 0;
+}
+
+#email {
+    font-size: 18px;
+    padding: 15px 15px;
+    border-radius: 25px 25px 25px 0;
+}
+
+#message {
+    border-radius: 25px 25px 25px 0;
+}
+.flex-container{
+    display: flex;
+}
+
+@media screen and (max-width:  767px){
+    .hidd{
+        display: none;
+    }
+    .signup-form {
+    background-color: #fff;
+    height: 100vh;
+    padding: 60px;
+}
+    .create h2{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+    .logg{
+    padding-top: 1%;
+    font-size: 14px;
+    width: 70%;
+}
+.loggg{
+    color: #FF4A50;
+    font-size: 16px;    
+    padding-top: 0;
+    
+}
+.loog{
+    width: 30%;
+}
+}
+
